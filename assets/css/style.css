@@ -1,0 +1,58 @@
+*,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: #21eb;
+    padding: 20px;
+    color: white;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+main .apps {
+    border: 1px solid #111;
+    width: 45%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+main .apps .body {
+    margin-top: 20px;
+}
+
+main .apps .body ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+main .add-task {
+    border: 1px solid #111;
+    width: 25%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+main .add-task form {
+    margin-top: 10px;
+}
+
+main .add-task form button {
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+main .add-task form input {
+    padding: 5px 20px;
+    width: 85%;
+}
